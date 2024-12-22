@@ -38,12 +38,11 @@ public class ReflectionBenchmark {
             .timeUnit(TimeUnit.NANOSECONDS)
             .forks(1)
             .warmupForks(1)
-            .warmupIterations(2)
-            .warmupTime(TimeValue.seconds(2))
-            .measurementIterations(3)
-            .measurementTime(TimeValue.seconds(10))
+            .warmupIterations(5)
+            .warmupTime(TimeValue.seconds(5))
+            .measurementIterations(10)
+            .measurementTime(TimeValue.minutes(2))
             .build();
-
 
         new Runner(options).run();
     }

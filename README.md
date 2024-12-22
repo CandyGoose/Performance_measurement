@@ -1,3 +1,10 @@
+| Benchmark                              | Mode  | Cnt | Score  | Error   | Units |
+|----------------------------------------|-------|-----|--------|---------|-------|
+| ReflectionBenchmark.directAccess       | avgt  | 3   | 0.507  | ± 0.247 | ns/op |
+| ReflectionBenchmark.handle             | avgt  | 3   | 3.374  | ± 5.552 | ns/op |
+| ReflectionBenchmark.lambdaMetafactory  | avgt  | 3   | 0.721  | ± 0.168 | ns/op |
+| ReflectionBenchmark.reflection         | avgt  | 3   | 6.186  | ± 2.717 | ns/op |
+
 # Шаблон Java-проекта для домашних заданий
 
 Шаблон для домашних заданий [Академии Бэкенда 2024][course-url].
