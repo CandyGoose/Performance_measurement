@@ -1,9 +1,9 @@
 | Benchmark                              | Mode  | Cnt | Score  | Error   | Units |
 |----------------------------------------|-------|-----|--------|---------|-------|
-| ReflectionBenchmark.directAccess       | avgt  | 3   | 0.507  | ± 0.247 | ns/op |
-| ReflectionBenchmark.handle             | avgt  | 3   | 3.374  | ± 5.552 | ns/op |
-| ReflectionBenchmark.lambdaMetafactory  | avgt  | 3   | 0.721  | ± 0.168 | ns/op |
-| ReflectionBenchmark.reflection         | avgt  | 3   | 6.186  | ± 2.717 | ns/op |
+| ReflectionBenchmark.directAccess       | avgt  | 10  | 0.523  | ± 0.009 | ns/op |
+| ReflectionBenchmark.handle             | avgt  | 10  | 3.224  | ± 0.028 | ns/op |
+| ReflectionBenchmark.lambdaMetafactory  | avgt  | 10  | 0.713  | ± 0.008 | ns/op |
+| ReflectionBenchmark.reflection         | avgt  | 10  | 5.855  | ± 0.009 | ns/op |
 
 # Шаблон Java-проекта для домашних заданий
 
