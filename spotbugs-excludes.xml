@@ -53,4 +53,9 @@
         </Or>
         <Bug pattern="CC_CYCLOMATIC_COMPLEXITY"/>
     </Match>
+
+        <!-- JMH exclusions -->
+    <Match>
+        <Package name="~.*\.jmh_generated" />
+    </Match>
 </FindBugsFilter>
